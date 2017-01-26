@@ -1,0 +1,8 @@
+*.pyc
+
+# Eclipse Stuff
+.project
+.pydevproject
+
+# VS Code Stuff
+.vscode/*
