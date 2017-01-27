@@ -15,7 +15,6 @@ models.BooleanField.set_notice_priority = set_notice_priority
 
 class InterceptionRecord(models.Model):
     irf_number = models.CharField(max_length=20, unique=True)
-    date_time_of_interception = models.DateTimeField()
 
     drugged_or_drowsy = models.BooleanField(default=False).set_flag_priority(50)
     meeting_someone_across_border = models.BooleanField(default=False).set_flag_priority(16)

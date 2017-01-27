@@ -1,7 +1,6 @@
 from parse import parse
 from datetime import datetime
 from django.db import models
-# from models import BorderStation
 from django.utils.timezone import make_naive, localtime, make_aware
 
 def no_translation(title):
