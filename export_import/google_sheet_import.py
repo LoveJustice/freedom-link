@@ -58,12 +58,4 @@ class GoogleSheetImport (GoogleSheet):
     @staticmethod
     def import_stories():
         import_sheet = GoogleSheetImport(settings.SPREADSHEET_NAME, settings.STORY_WORKSHEET_NAME, 'Import Status', None, 'Import Issues', 'Unique ID', import_story_row)
-        import_sheet.import_rows()
-'''        
-    @staticmethod
-    def import_vifs():
-        import_sheet = GoogleSheetImport(settings.SPREADSHEET_NAME, settings.VIF_IMPORT_WORKSHEET_NAME, 'Import Status', get_vif_export_rows, 'Import Issues', 'VIF number', import_vif_row)
-        import_sheet.import_rows()
- '''
-        
-        
+        import_sheet.import_rows()    

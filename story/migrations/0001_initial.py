@@ -108,7 +108,7 @@ class Migration(migrations.Migration):
             ],
         ),
         migrations.CreateModel(
-            name='StoryDelivery',
+            name='Delivery',
             fields=[
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('date_sent', models.DateTimeField(null=True)),

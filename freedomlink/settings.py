@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
+    'django_extensions',
     'story',
 ]
 
@@ -56,7 +57,7 @@ WSGI_APPLICATION = 'freedomlink.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'freedomdb',
+        'NAME': 'linkdb',
         'USER': 'django',
         'PASSWORD': 'pass',
         'HOST': 'localhost',
@@ -67,7 +68,7 @@ DATABASES = {
 IMPORT_ACCOUNT_EMAIL = 'test_sup@example.com'
 SPREADSHEET_NAME = 'FreedomLink Snapshot'
 STORY_WORKSHEET_NAME = 'Stories'
-STORY_EXPORT_WORKSHEET_NAME = 'Sent Stories'
+DELIVERY_WORKSHEET_NAME = 'Deliveries'
 
 
 

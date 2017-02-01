@@ -1,942 +1,179 @@
-DEBUG|2017-01-27 00:17:58,530|export_import.google_sheet_basic[69-__init__]>> after get credentials
-INFO|2017-01-27 00:17:58,538|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
-INFO|2017-01-27 00:17:58,539|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
-INFO|2017-01-27 00:17:58,576|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
-INFO|2017-01-27 00:17:59,397|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
-DEBUG|2017-01-27 00:17:59,684|export_import.google_sheet_basic[79-__init__]>> after get metadata
-DEBUG|2017-01-27 00:17:59,684|export_import.google_sheet[12-__init__]>> In __init__
-INFO|2017-01-27 00:17:59,732|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A1%3AFA1?alt=json&majorDimension=ROWS
-DEBUG|2017-01-27 00:17:59,936|export_import.google_sheet[18-__init__]>> After find key column
-INFO|2017-01-27 00:17:59,992|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B2%3AB?alt=json&majorDimension=COLUMNS
-DEBUG|2017-01-27 00:18:00,345|export_import.google_sheet[20-__init__]>> After refresh keys
-INFO|2017-01-27 00:18:00,385|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A12%3AFB12?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:18:00,758|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,759|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,759|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,759|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,759|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,759|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> Going for Treatment
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,760|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,761|export_import.story_io[123-import_story_row]>> CND201Rita Palli Magar
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> Rita
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> Noticed they were hurrying
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> CND201
-INFO|2017-01-27 00:18:00,762|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> Chandrauta
-INFO|2017-01-27 00:18:00,763|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> Noticed they had dirty clothes
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> with one other person
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:18:00,764|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,765|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> girl
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> Female
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> herself
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> On December 22, 2016 Tiny Hands Nepal staff at Chandrauta intercepted a 15 year old girl named Rita who was traveling with one other person who appeared to be a victim. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Rita because she looked young. Because our staff are familiar with the local culture and norms they are able to notice when someone's appearance seems suspicious or out of place.
+INFO|2017-02-01 21:48:24,622|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 21:48:24,658|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 21:48:24,669|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 21:48:24,669|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 21:48:24,713|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 21:48:25,742|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 21:48:26,400|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 21:48:26,414|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-When she was questioned by our border staff Rita said that she was on her way to India for medical treatment. In the end the staff person making the interception reported that they felt very sure that it was a trafficking case. It isn't always possible to be so certain, but in this case they were fortunate to uncover a great deal of evidence. 
+INFO|2017-02-01 21:48:26,414|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 21:48:26,414|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 21:48:26,414|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 21:48:26,415|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 21:48:26,415|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 21:48:26,415|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 21:48:26,415|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => amunn33@gmail.com
+INFO|2017-02-01 21:48:26,415|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 21:48:26,415|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 21:48:26,546|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 21:48:26,910|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+INFO|2017-02-01 21:48:27,020|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Deliveries%21A%3AZZ:append?alt=json&valueInputOption=USER_ENTERED
+INFO|2017-02-01 21:48:27,320|export_import.google_sheet_audit[33-replace_deliveries]>> Complete replace Delivery
+INFO|2017-02-01 21:48:48,399|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 21:48:48,428|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 21:48:48,437|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 21:48:48,437|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 21:48:48,477|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 21:48:49,791|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 21:48:50,364|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 21:48:50,387|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-Rita returned home before a full interview could be completed with her, but a staff person from our Kathmandu office will follow up with her by phone in about one month to see how she is doing. Rita was intercepted as a result of your support. We believe that human trafficking - what may have happened to Rita without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Rita from being trafficked.
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,766|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> 12/22/2016
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> Noticed them in a vehicle
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,767|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> she
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>>  felt very sure that it was a trafficking case. It isn't always possible to be so certain, but in this case they were fortunate to uncover a great deal of evidence. 
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> Runaway
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> 0
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> December 22, 2016
-INFO|2017-01-27 00:18:00,768|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>>  for medical treatment. 
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> 4 - Very sure
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,769|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,770|export_import.story_io[123-import_story_row]>> 15
-INFO|2017-01-27 00:18:00,770|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:00,770|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:18:00,770|export_import.story_io[123-import_story_row]>> 1
-INFO|2017-01-27 00:18:00,866|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B12%3AB12?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:18:01,073|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C12%3AC12?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:18:01,343|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A13%3AFB13?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> Going for Treatment
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,576|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> CND201Pabitra Swati Magar
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> Pabitra
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> Noticed they were hurrying
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> CND201
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> Chandrauta
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> Noticed they had dirty clothes
-INFO|2017-01-27 00:18:01,577|export_import.story_io[123-import_story_row]>> with one other person
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> girl
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> Female
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> herself
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> On December 22, 2016 Tiny Hands Nepal staff at Chandrauta intercepted a 10 year old girl named Pabitra who was traveling with one other person who appeared to be a victim. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Pabitra because she looked young. Because our staff are familiar with the local culture and norms they are able to notice when someone's appearance seems suspicious or out of place.
+INFO|2017-02-01 21:48:50,388|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 21:48:50,388|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 21:48:50,388|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 21:48:50,388|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 21:48:50,388|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 21:48:50,389|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 21:48:50,389|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 21:48:50,389|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 21:48:50,389|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 21:48:50,536|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 21:48:50,872|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+INFO|2017-02-01 21:48:50,995|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Deliveries%21A%3AZZ:append?alt=json&valueInputOption=USER_ENTERED
+INFO|2017-02-01 21:48:51,486|export_import.google_sheet_audit[33-replace_deliveries]>> Complete replace Delivery
+INFO|2017-02-01 21:51:12,979|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 21:51:13,006|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 21:51:13,016|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 21:51:13,017|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 21:51:13,056|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 21:51:14,125|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 21:51:14,540|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 21:51:14,554|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-When she was questioned by our border staff Pabitra said that she was on her way to India for medical treatment. In the end the staff person making the interception reported that they felt very sure that it was a trafficking case. It isn't always possible to be so certain, but in this case they were fortunate to uncover a great deal of evidence. 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 21:51:14,555|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 21:51:14,555|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 21:51:14,652|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 21:51:15,073|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+INFO|2017-02-01 21:51:15,202|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Deliveries%21A%3AZZ:append?alt=json&valueInputOption=USER_ENTERED
+INFO|2017-02-01 21:51:15,564|export_import.google_sheet_audit[33-replace_deliveries]>> Complete replace Delivery
+WARNING|2017-02-01 21:55:58,941|py.warnings[577-__init__]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
 
-Pabitra returned home before a full interview could be completed with her, but a staff person from our Kathmandu office will follow up with her by phone in about one month to see how she is doing. Pabitra was intercepted as a result of your support. We believe that human trafficking - what may have happened to Pabitra without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Pabitra from being trafficked.
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> 12/22/2016
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> Noticed them in a vehicle
-INFO|2017-01-27 00:18:01,578|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> she
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>>  felt very sure that it was a trafficking case. It isn't always possible to be so certain, but in this case they were fortunate to uncover a great deal of evidence. 
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> Runaway
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> 0
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> December 22, 2016
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>>  for medical treatment. 
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> 4 - Very sure
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,579|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>> 10
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:18:01,580|export_import.story_io[123-import_story_row]>> 1
-ERROR|2017-01-27 00:18:01,586|export_import.story_io[179-import_story_row]>> Unexpected error saving Story in database Story Code=CND201Pabitra Swati MagarTraceback (most recent call last):
-  File "/home/amunn/Documents/FreedomLink/application/export_import/story_io.py", line 174, in import_story_row
-    irf.save()
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 700, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 728, in save_base
-    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 812, in _save_table
-    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 851, in _do_insert
-    using=using, raw=raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
-    return query.get_compiler(using=using).execute_sql(return_id)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/utils.py", line 95, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-IntegrityError: duplicate key value violates unique constraint "story_interceptionrecord_irf_number_key"
-DETAIL:  Key (irf_number)=(CND201) already exists.
+WARNING|2017-02-01 21:55:58,942|py.warnings[265-create_parser]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
 
+WARNING|2017-02-01 21:57:06,021|py.warnings[1453-get_prep_value]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Delivery.date_sent received a naive datetime (2017-02-01 21:56:55.479616) while time zone support is active.
+  RuntimeWarning)
 
-INFO|2017-01-27 00:18:01,627|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B13%3AB13?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:18:01,842|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C13%3AC13?alt=json&valueInputOption=USER_ENTERED
-DEBUG|2017-01-27 00:19:25,811|export_import.google_sheet_basic[69-__init__]>> after get credentials
-INFO|2017-01-27 00:19:25,819|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
-INFO|2017-01-27 00:19:25,819|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
-INFO|2017-01-27 00:19:25,857|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
-INFO|2017-01-27 00:19:26,919|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
-DEBUG|2017-01-27 00:19:27,759|export_import.google_sheet_basic[79-__init__]>> after get metadata
-DEBUG|2017-01-27 00:19:27,759|export_import.google_sheet[12-__init__]>> In __init__
-INFO|2017-01-27 00:19:27,804|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A1%3AFA1?alt=json&majorDimension=ROWS
-DEBUG|2017-01-27 00:19:28,527|export_import.google_sheet[18-__init__]>> After find key column
-INFO|2017-01-27 00:19:28,595|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B2%3AB?alt=json&majorDimension=COLUMNS
-DEBUG|2017-01-27 00:19:28,850|export_import.google_sheet[20-__init__]>> After refresh keys
-INFO|2017-01-27 00:19:28,902|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A18%3AFB18?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,447|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> Shopping - stuff for overnight stay in bags
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,448|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> CND199Anita Pariyar
-INFO|2017-01-27 00:19:29,449|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> Anita
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> CND199
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,450|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:19:29,451|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,451|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,451|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,451|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:19:29,451|export_import.story_io[123-import_story_row]>> Chandrauta
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> Noticed they were wearing village dress
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> with 2 other people
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:19:29,452|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> Noticed they were hesitant
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> Going for visit / family / returning Home
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,453|export_import.story_io[123-import_story_row]>> woman
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> Female
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> herself
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> On December 21, 2016 Tiny Hands Nepal staff at Chandrauta intercepted a 22 year old woman named Anita who was traveling with 2 other people, one of which appeared to be a victim and one of which appeared to be a trafficker. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Anita because she was wearing village clothes. A person's attire and the things they are carrying with them can provide telltale hints about them and where they are from.
+INFO|2017-02-01 21:57:21,944|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 21:57:21,987|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 21:57:21,996|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 21:57:21,996|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 21:57:22,036|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 21:57:23,706|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 21:57:24,202|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 21:57:24,214|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-When she was questioned by our border staff Anita said that she was on her way to India in order to visit family. Upon further investigation our staff recognized several red flags, including that although Anita claimed to just be going for shopping she had things for an overnight stay in her bags. Traffickers will often tell their victims to lie if questioned, but our staff are trained to catch any small inconsistencies in their story. In the end the staff person making the interception reported that they felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
+INFO|2017-02-01 21:57:24,214|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 21:57:24,214|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 21:57:24,214|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 21:57:24,215|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 21:57:24,215|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 21:57:24,215|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 21:57:24,215|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 21:57:24,215|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 21:57:24,215|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 21:57:24,358|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 21:57:24,815|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+INFO|2017-02-01 21:57:24,924|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Deliveries%21A%3AZZ:append?alt=json&valueInputOption=USER_ENTERED
+INFO|2017-02-01 21:57:25,188|export_import.google_sheet_audit[33-replace_deliveries]>> Complete replace Delivery
+INFO|2017-02-01 21:57:29,669|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 21:57:29,698|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 21:57:29,707|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 21:57:29,707|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 21:57:29,746|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 21:57:31,538|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 21:57:31,988|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 21:57:32,013|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-Anita returned home before a full interview could be completed with her, but a staff person from our Kathmandu office will follow up with her by phone in about one month to see how she is doing. Anita was intercepted as a result of your support. We believe that human trafficking - what may have happened to Anita without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Anita from being trafficked.
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,454|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> 12/21/2016
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> Noticed them in a vehicle
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,455|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:19:29,456|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:19:29,456|export_import.story_io[123-import_story_row]>> she
-INFO|2017-01-27 00:19:29,456|export_import.story_io[123-import_story_row]>>  felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
-INFO|2017-01-27 00:19:29,456|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,456|export_import.story_io[123-import_story_row]>> Unsafe Migration
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> 1
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> December 21, 2016
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,457|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>>  in order to visit family. 
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> 3 - Somewhat sure
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:19:29,458|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,459|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,459|export_import.story_io[123-import_story_row]>> 22
-INFO|2017-01-27 00:19:29,459|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:29,459|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:19:29,459|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:19:29,479|export_import.story_io[161-import_story_row]>> FGK HUH
-INFO|2017-01-27 00:19:29,572|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B18%3AB18?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:19:29,834|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C18%3AC18?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:19:30,423|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A19%3AFB19?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> Shopping - stuff for overnight stay in bags
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> him
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,667|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> CND199Suraj B.K
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> his
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> Suraj
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> CND199
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> Chandrauta
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> Noticed they were wearing village dress
-INFO|2017-01-27 00:19:30,668|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> with 2 other people
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> Noticed they were hesitant
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> Going for visit / family / returning Home
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> boy
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> Male
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> himself
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> On December 21, 2016 Tiny Hands Nepal staff at Chandrauta intercepted a 16 year old boy named Suraj who was traveling with 2 other people, one of which appeared to be a victim and one of which appeared to be a trafficker. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Suraj because he was wearing village clothes. A person's attire and the things they are carrying with them can provide telltale hints about them and where they are from.
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 21:57:32,014|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 21:57:32,015|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 21:57:32,015|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 21:57:32,015|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 21:57:32,110|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 21:57:32,496|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+WARNING|2017-02-01 22:13:16,188|py.warnings[577-__init__]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
 
-When he was questioned by our border staff Suraj said that he was on his way to India in order to visit family. Upon further investigation our staff recognized several red flags, including that although Suraj claimed to just be going for shopping he had things for an overnight stay in him bags. Traffickers will often tell their victims to lie if questioned, but our staff are trained to catch any small inconsistencies in their story. In the end the staff person making the interception reported that they felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
+WARNING|2017-02-01 22:13:16,206|py.warnings[265-create_parser]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
 
-Suraj returned home before a full interview could be completed with him, but a staff person from our Kathmandu office will follow up with him by phone in about one month to see how he is doing. Suraj was intercepted as a result of your support. We believe that human trafficking - what may have happened to Suraj without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Suraj from being trafficked.
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,669|export_import.story_io[123-import_story_row]>> 12/21/2016
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> Noticed them in a vehicle
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> he
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>>  felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> Unsafe Migration
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> 1
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> December 21, 2016
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:19:30,670|export_import.story_io[123-import_story_row]>>  in order to visit family. 
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> 3 - Somewhat sure
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> 16
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>>  at 0:00:
-INFO|2017-01-27 00:19:30,671|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:19:30,672|export_import.story_io[161-import_story_row]>> FGK HUH
-ERROR|2017-01-27 00:19:30,676|export_import.story_io[180-import_story_row]>> Unexpected error saving Story in database Story Code=CND199Suraj B.KTraceback (most recent call last):
-  File "/home/amunn/Documents/FreedomLink/application/export_import/story_io.py", line 175, in import_story_row
-    irf.save()
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 700, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 728, in save_base
-    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 812, in _save_table
-    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 851, in _do_insert
-    using=using, raw=raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
-    return query.get_compiler(using=using).execute_sql(return_id)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/utils.py", line 95, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-IntegrityError: duplicate key value violates unique constraint "story_interceptionrecord_irf_number_key"
-DETAIL:  Key (irf_number)=(CND199) already exists.
+WARNING|2017-02-01 22:16:14,667|py.warnings[1453-get_prep_value]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:1453: RuntimeWarning: DateTimeField Delivery.date_sent received a naive datetime (2017-02-01 22:16:07.434982) while time zone support is active.
+  RuntimeWarning)
 
+INFO|2017-02-01 22:16:20,431|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 22:16:20,524|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 22:16:20,532|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 22:16:20,532|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 22:16:20,573|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 22:16:21,342|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 22:16:21,830|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 22:16:21,889|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-INFO|2017-01-27 00:19:30,720|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B19%3AB19?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:19:30,942|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C19%3AC19?alt=json&valueInputOption=USER_ENTERED
-DEBUG|2017-01-27 00:28:08,914|export_import.google_sheet_basic[69-__init__]>> after get credentials
-INFO|2017-01-27 00:28:08,922|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
-INFO|2017-01-27 00:28:08,922|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
-INFO|2017-01-27 00:28:08,959|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
-INFO|2017-01-27 00:28:10,263|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
-DEBUG|2017-01-27 00:28:10,680|export_import.google_sheet_basic[79-__init__]>> after get metadata
-DEBUG|2017-01-27 00:28:10,680|export_import.google_sheet[12-__init__]>> In __init__
-INFO|2017-01-27 00:28:10,719|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A1%3AFA1?alt=json&majorDimension=ROWS
-DEBUG|2017-01-27 00:28:10,989|export_import.google_sheet[18-__init__]>> After find key column
-INFO|2017-01-27 00:28:11,030|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B2%3AB?alt=json&majorDimension=COLUMNS
-DEBUG|2017-01-27 00:28:11,194|export_import.google_sheet[20-__init__]>> After refresh keys
-INFO|2017-01-27 00:28:11,254|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A27%3AFB27?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:28:11,385|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,385|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,385|export_import.story_io[123-import_story_row]>> Going to study, no documentation of enrollment
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> him
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> Going to study, no phone number for school
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> HTD054Nirmal Syangtan
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> his
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> Nirmal
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,386|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> HTD054
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>>  at 0.494444444444444
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Going to study, does not know school's name and location
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Hetauda
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Noticed they were wearing village dress
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Noticed they had dirty clothes
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> with 37 other people
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Going to Study
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,387|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> boy
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> Male
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> himself
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> On December 2, 2016 Tiny Hands Nepal staff at Hetauda intercepted a 12 year old boy named Nirmal who was traveling with 37 other people, 27 of which appeared to be victims and 10 of which appeared to be traffickers. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Nirmal because he was wearing village clothes. A person's attire and the things they are carrying with them can provide telltale hints about them and where they are from.
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 22:16:21,890|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 22:16:21,890|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 22:16:21,931|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 22:16:22,395|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************
+WARNING|2017-02-01 22:16:32,014|py.warnings[577-__init__]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:577: RemovedInDjango110Warning: NoArgsCommand class is deprecated and will be removed in Django 1.10. Use BaseCommand instead, which takes no arguments by default.
+  RemovedInDjango110Warning
 
-When he was questioned by our transit staff Nirmal said that he was on his way to India for study. Upon further investigation our staff recognized several red flags, including that although Nirmal said he was going to study at a school he didn't know the school's name and location. Traffickers will sometimes use the promise of a good education to entice their victims to come with them, and not knowing where they are going is a strong indicator that this is what is happening. In the end the staff person making the interception reported that they felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
+WARNING|2017-02-01 22:16:32,015|py.warnings[265-create_parser]>> /home/amunn/Documents/FreedomLink/freedomenv/local/lib/python2.7/site-packages/django/core/management/base.py:265: RemovedInDjango110Warning: OptionParser usage for Django management commands is deprecated, use ArgumentParser instead
+  RemovedInDjango110Warning)
 
- Nirmal was intercepted as a result of your support. We believe that human trafficking - what may have happened to Nirmal without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Nirmal from being trafficked.
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> 12/2/2016
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> transit
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> he
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>>  felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
-INFO|2017-01-27 00:28:11,388|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> Unsafe Migration
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> 10
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> December 2, 2016
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> 28
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>>  for study. 
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> 3 - Somewhat sure
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> 12
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>>  at 0.494444444444444
-INFO|2017-01-27 00:28:11,389|export_import.story_io[123-import_story_row]>> 37
-INFO|2017-01-27 00:28:11,403|export_import.story_io[175-import_story_row]>> Just saved IRF with nbr= HTD054
-INFO|2017-01-27 00:28:11,485|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B27%3AB27?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:28:11,763|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C27%3AC27?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:28:12,102|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A28%3AFB28?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:28:12,320|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,320|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,320|export_import.story_io[123-import_story_row]>> Going to study, no documentation of enrollment
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> him
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> Going to study, no phone number for school
-INFO|2017-01-27 00:28:12,321|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> HTD054Bishal Ghising
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> his
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> Bishal
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> HTD054
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>>  at 0.494444444444444
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> Going to study, does not know school's name and location
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,322|export_import.story_io[123-import_story_row]>> Hetauda
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Noticed they were wearing village dress
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Noticed they had dirty clothes
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> with 37 other people
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Going to Study
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Noticed that they were sitting/waiting
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> boy
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> Male
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> himself
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> On December 2, 2016 Tiny Hands Nepal staff at Hetauda intercepted an 11 year old boy named Bishal who was traveling with 37 other people, 27 of which appeared to be victims and 10 of which appeared to be traffickers. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Bishal because he was wearing village clothes. A person's attire and the things they are carrying with them can provide telltale hints about them and where they are from.
+INFO|2017-02-01 22:26:59,461|export_import.google_sheet_audit[16-replace_deliveries]>> Begin replace Delivery
+DEBUG|2017-02-01 22:26:59,522|export_import.google_sheet_basic[69-__init__]>> after get credentials
+INFO|2017-02-01 22:26:59,531|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
+INFO|2017-02-01 22:26:59,531|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
+INFO|2017-02-01 22:26:59,570|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
+INFO|2017-02-01 22:27:00,349|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
+DEBUG|2017-02-01 22:27:00,961|export_import.google_sheet_basic[79-__init__]>> after get metadata
+WARNING|2017-02-01 22:27:00,972|py.warnings[56-wrapper]>> /home/amunn/Documents/FreedomLink/application/export_import/google_sheet_audit.py:20: RemovedInDjango110Warning: 'get_all_field_names is an unofficial API that has been deprecated. You may be able to replace it with 'get_fields()'
+  for i in item._meta.get_all_field_names():
 
-When he was questioned by our transit staff Bishal said that he was on his way to India for study. Upon further investigation our staff recognized several red flags, including that although Bishal said he was going to study at a school he didn't know the school's name and location. Traffickers will sometimes use the promise of a good education to entice their victims to come with them, and not knowing where they are going is a strong indicator that this is what is happening. In the end the staff person making the interception reported that they felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
-
- Bishal was intercepted as a result of your support. We believe that human trafficking - what may have happened to Bishal without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Bishal from being trafficked.
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,323|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> 12/2/2016
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> transit
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> an 
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> he
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>>  felt somewhat sure that it was a trafficking case. Because traffickers try their best to make things look normal it isn't always possible to know for certain that trafficking is taking place. 
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> Unsafe Migration
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> 10
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> Noticed they had a typical village look
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> December 2, 2016
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,324|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> 28
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>>  for study. 
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> 3 - Somewhat sure
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> 11
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>>  at 0.494444444444444
-INFO|2017-01-27 00:28:12,325|export_import.story_io[123-import_story_row]>> 37
-ERROR|2017-01-27 00:28:12,330|export_import.story_io[179-import_story_row]>> Unexpected error saving Story in database Story Code=HTD054Bishal GhisingTraceback (most recent call last):
-  File "/home/amunn/Documents/FreedomLink/application/export_import/story_io.py", line 173, in import_story_row
-    irf.save()
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 700, in save
-    force_update=force_update, update_fields=update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 728, in save_base
-    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 812, in _save_table
-    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/base.py", line 851, in _do_insert
-    using=using, raw=raw)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/manager.py", line 122, in manager_method
-    return getattr(self.get_queryset(), name)(*args, **kwargs)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/query.py", line 1039, in _insert
-    return query.get_compiler(using=using).execute_sql(return_id)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 1060, in execute_sql
-    cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 79, in execute
-    return super(CursorDebugWrapper, self).execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/utils.py", line 95, in __exit__
-    six.reraise(dj_exc_type, dj_exc_value, traceback)
-  File "/home/amunn/.virtualenvs/dream/local/lib/python2.7/site-packages/django/db/backends/utils.py", line 64, in execute
-    return self.cursor.execute(sql, params)
-IntegrityError: duplicate key value violates unique constraint "story_interceptionrecord_irf_number_key"
-DETAIL:  Key (irf_number)=(HTD054) already exists.
-
-
-INFO|2017-01-27 00:28:12,388|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B28%3AB28?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:28:12,684|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C28%3AC28?alt=json&valueInputOption=USER_ENTERED
-DEBUG|2017-01-27 00:29:34,063|export_import.google_sheet_basic[69-__init__]>> after get credentials
-INFO|2017-01-27 00:29:34,070|googleapiclient.discovery[838-method]>> URL being requested: GET https://www.googleapis.com/drive/v3/files?alt=json
-INFO|2017-01-27 00:29:34,071|oauth2client.client[596-new_request]>> Attempting refresh to obtain initial access_token
-INFO|2017-01-27 00:29:34,110|oauth2client.client[894-_do_refresh_request]>> Refreshing access_token
-INFO|2017-01-27 00:29:35,137|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI?alt=json
-DEBUG|2017-01-27 00:29:35,471|export_import.google_sheet_basic[79-__init__]>> after get metadata
-DEBUG|2017-01-27 00:29:35,471|export_import.google_sheet[12-__init__]>> In __init__
-INFO|2017-01-27 00:29:35,516|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A1%3AFA1?alt=json&majorDimension=ROWS
-DEBUG|2017-01-27 00:29:35,674|export_import.google_sheet[18-__init__]>> After find key column
-INFO|2017-01-27 00:29:35,716|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B2%3AB?alt=json&majorDimension=COLUMNS
-DEBUG|2017-01-27 00:29:35,984|export_import.google_sheet[20-__init__]>> After refresh keys
-INFO|2017-01-27 00:29:36,061|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A58%3AFB58?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:29:36,188|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> TKP105Rupa B.K
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> Rupa
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> TKP105
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>>  at 9:34:
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> Tikapur
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> Going for a Job
-INFO|2017-01-27 00:29:36,189|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> with 2 other people
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Going for job, no address in India
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Noticed they were nervous or afraid
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> woman
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Running away from home (over 18)
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> Female
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> herself
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> On December 14, 2016 Tiny Hands Nepal staff at Tikapur intercepted a 19 year old woman named Rupa who was traveling with 2 other people who appeared to be victims. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Rupa because she appeared nervous or afraid. The manner in which a person is behaving can raise suspicion and is one of the main things to which our staff pay attention.
-
-When she was questioned by our border staff Rupa said that she was on her way to India for a job. Upon further investigation our staff recognized several red flags, including that Rupa was running away from home. Although this may not necessarily mean that she was being trafficked, it does mean that she was significantly more vulnerable and at a high risk of being trafficked or exploited. In the end the staff person making the interception reported that they were unsure whether trafficking was taking place, but still suspected it. By stopping possible victims before they are exploited it is often impossible to know for sure if they were being trafficked, but in this case it was clearly a real risk. 
-
-Rupa returned home before a full interview could be completed with her, but a staff person from our Kathmandu office will follow up with her by phone in about one month to see how she is doing. Rupa was intercepted as a result of your support. We believe that human trafficking - what may have happened to Rupa without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Rupa from being trafficked.
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,190|export_import.story_io[123-import_story_row]>> 12/14/2016
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> she
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>>  were unsure whether trafficking was taking place, but still suspected it. By stopping possible victims before they are exploited it is often impossible to know for sure if they were being trafficked, but in this case it was clearly a real risk. 
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> India Trafficking
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,191|export_import.story_io[123-import_story_row]>> 0
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> December 14, 2016
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> Noticed they were wearing new clothes
-INFO|2017-01-27 00:29:36,192|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> 3
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>>  for a job. 
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> 2 - Unsure but suspects it
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> Noticed them in a cart
-INFO|2017-01-27 00:29:36,193|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,194|export_import.story_io[123-import_story_row]>> 19
-INFO|2017-01-27 00:29:36,194|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:36,194|export_import.story_io[123-import_story_row]>>  at 9:34:
-INFO|2017-01-27 00:29:36,194|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:29:36,262|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B58%3AB58?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:29:37,280|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C58%3AC58?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:29:37,478|googleapiclient.discovery[838-method]>> URL being requested: GET https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21A59%3AFB59?alt=json&majorDimension=ROWS
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> In the end the staff person making the interception reported that they
-INFO|2017-01-27 00:29:37,947|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> TKP105Srijhana Chaudhary
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> her
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> Srijhana
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> TKP105
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>>  at 9:34:
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> Noticed that they looked young
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> Tikapur
-INFO|2017-01-27 00:29:37,948|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Going for a Job
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> with 2 other people
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Noticed they were walking to the border
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Going for job, no address in India
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Ready
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Noticed they were nervous or afraid
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> woman
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Running away from home (over 18)
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> Female
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> herself
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> On December 14, 2016 Tiny Hands Nepal staff at Tikapur intercepted a 20 year old woman named Srijhana who was traveling with 2 other people who appeared to be victims. Border and transit monitoring staff are trained to observe people's manner, appearance and actions for clues that something may be wrong. In this case the attention of our staff was initially drawn to Srijhana because she appeared nervous or afraid. The manner in which a person is behaving can raise suspicion and is one of the main things to which our staff pay attention.
-
-When she was questioned by our border staff Srijhana said that she was on her way to India for a job. Upon further investigation our staff recognized several red flags, including that Srijhana was running away from home. Although this may not necessarily mean that she was being trafficked, it does mean that she was significantly more vulnerable and at a high risk of being trafficked or exploited. In the end the staff person making the interception reported that they were unsure whether trafficking was taking place, but still suspected it. By stopping possible victims before they are exploited it is often impossible to know for sure if they were being trafficked, but in this case it was clearly a real risk. 
-
-Srijhana returned home before a full interview could be completed with her, but a staff person from our Kathmandu office will follow up with her by phone in about one month to see how she is doing. Srijhana was intercepted as a result of your support. We believe that human trafficking - what may have happened to Srijhana without your help - is the greatest injustice in the world. Thank you for your support in helping to prevent Srijhana from being trafficked.
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,949|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> 12/14/2016
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> border
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> Noticed they were carrying full bags
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> a 
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> she
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>>  were unsure whether trafficking was taking place, but still suspected it. By stopping possible victims before they are exploited it is often impossible to know for sure if they were being trafficked, but in this case it was clearly a real risk. 
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> India Trafficking
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> 0
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> December 14, 2016
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,950|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> Noticed they were wearing new clothes
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> 3
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>>  for a job. 
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> 2 - Unsure but suspects it
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> India
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> Noticed them in a cart
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> 20
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> None
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>>  at 9:34:
-INFO|2017-01-27 00:29:37,951|export_import.story_io[123-import_story_row]>> 2
-INFO|2017-01-27 00:29:38,034|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21B59%3AB59?alt=json&valueInputOption=USER_ENTERED
-INFO|2017-01-27 00:29:38,341|googleapiclient.discovery[838-method]>> URL being requested: PUT https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI/values/Stories%21C59%3AC59?alt=json&valueInputOption=USER_ENTERED
+INFO|2017-02-01 22:27:00,972|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story = 
+INFO|2017-02-01 22:27:00,972|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** story_id = 
+INFO|2017-02-01 22:27:00,972|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor_id = 
+INFO|2017-02-01 22:27:00,972|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** date_sent = 
+INFO|2017-02-01 22:27:00,972|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** donor = 
+INFO|2017-02-01 22:27:00,973|export_import.google_sheet_audit[21-replace_deliveries]>> Here is item in result => ****** id = 
+INFO|2017-02-01 22:27:00,973|export_import.google_sheet_audit[22-replace_deliveries]>> Donor email => Austin
+INFO|2017-02-01 22:27:00,973|export_import.google_sheet_audit[23-replace_deliveries]>> END OF OBJ
+DEBUG|2017-02-01 22:27:00,973|export_import.delivery_io[38-get_delivery_export_rows]>> Enter get_delivery_export_rows delivery count=1
+INFO|2017-02-01 22:27:01,023|googleapiclient.discovery[838-method]>> URL being requested: POST https://sheets.googleapis.com/v4/spreadsheets/14HIaCeqkUfrdq3DGncv6wKkOMF0oHuVQuj9gpURb6iI:batchUpdate?alt=json
+INFO|2017-02-01 22:27:01,388|export_import.google_sheet_basic[145-append_rows]>> Trying to append values *********************************

@@ -101,13 +101,6 @@ story_data =[
     CopyCsvField("full_name", "Name", False, allow_null_or_blank_import=False),
 ]
 
-story_delivery_data = [
-    DateTimeCsvField("date_sent", "Date Sent")
-]
-
-donor_data = [
-    CopyCsvField("email", "Donor", False),
-]
 
                
 # define default values on import as array of arrays

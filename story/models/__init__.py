@@ -4,4 +4,4 @@ from interception_record import InterceptionRecord
 
 from story import Story
 
-from story_delivery import StoryDelivery
+from delivery import Delivery
