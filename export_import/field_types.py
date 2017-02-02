@@ -77,11 +77,10 @@ class DateTimeCsvField:
         return errs
 
     def exportField(self, instance):
-        value = getattr(instance, self.data_name)
+        value = getattr(instance, self.data_name)        
         local_val = localtime(value)
         local_val = local_val.replace(microsecond=0)
-        return make_naive(local_val, local_val.tzinfo)
-
+        return str(make_naive(local_val, local_val.tzinfo))
 
 # export text string for boolean field - one value for true alternate value for false
 class BooleanCsvField:

@@ -24,8 +24,7 @@ story_data =[
 ]
 
 delivery_data = [
-    #Date time is not serializing correctly
-    #DateTimeCsvField("date_sent", "Date Sent"),
+    DateTimeCsvField("date_sent", "Date Sent"),
 ]
 
 donor_data = [
