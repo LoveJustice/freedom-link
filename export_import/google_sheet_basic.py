@@ -130,8 +130,6 @@ class GoogleSheetBasic:
         rng = self.sheet_name + "!" + self.convert_notation(start_row, start_col) + ":" + self.convert_notation(end_row, end_col)
         
         result = GoogleSheetBasic.sheet_service.spreadsheets().values().get(spreadsheetId=self.spreadsheet_id, range=rng, majorDimension=majorDimension).execute()
-        
-        logger.info("Get Data = " + str(result.keys()) + str(result['majorDimension'])) # REMOVE
         return result["values"]
     
     def update_cell(self, row, col, val):
@@ -142,7 +140,6 @@ class GoogleSheetBasic:
         GoogleSheetBasic.sheet_service.spreadsheets().values().update(spreadsheetId=self.spreadsheet_id, range=rng, valueInputOption="USER_ENTERED", body=body).execute()
 
     def append_rows(self, vals):
-        logger.info("Trying to append values *********************************") # REMOVE
         body = {
             "values": vals
             }
