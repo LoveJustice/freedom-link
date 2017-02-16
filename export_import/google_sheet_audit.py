@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__);
 def replace_deliveries():
     logger.info("Begin replace Delivery")
     delieveries_gs = GoogleSheetBasic(settings.SPREADSHEET_NAME, settings.DELIVERY_WORKSHEET_NAME)
-    db_deliveries = Delivery.objects.select_related('story__unique_story_code', 'story__story_text', 'donor__email', 'donor__first_name', 'donor__last_name').all()
+    db_deliveries = Delivery.objects.select_related('story', 'donor').all()
     new_rows = get_delivery_export_rows(db_deliveries)
     
     reqs = []
