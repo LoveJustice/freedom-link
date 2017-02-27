@@ -5,14 +5,14 @@ from PIL import Image
 from reportlab.graphics.shapes import Rect
 from reportlab.lib.colors import Color
 from reportlab.lib.enums import TA_JUSTIFY, TA_LEFT, TA_CENTER
-from reportlab.lib.pagesizes import A4, inch, cm
+from reportlab.lib.pagesizes import inch
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.pdfgen.canvas import Canvas
 from reportlab.platypus import Paragraph, Table, TableStyle
 
 
 title_text = '''
-FreedomLink: Amrita (Taylor University)
+FreedomLink: Tunshi (Taylor University)
 '''
 
 paragraph1 = '''
@@ -49,7 +49,7 @@ prevent Tunshi from being trafficked.
 '''
 
 paragraph4 = '''
-Thank you for your support in helping to prevent Amrita from being trafficked.
+Thank you for your support in helping to prevent Tunshi from being trafficked.
 '''
 
 texts = [
@@ -75,13 +75,13 @@ box_width = 1000
 # image_width       2560  1013
 # image_height      1706  1453
 
-# Dimensions: x, y, width, height
+# Dimensions: x, y  # , width, height
 rectangle_dimensions = [
     ((2560-box_width)/2, 1706/2),  #, 1000, 500),
-    ((2560-box_width)/2, 1706/2),  #, 1000, 500),
-    ((2560-box_width)/2, 1706/2),  #, 1000, 500),
-    ((2560-box_width)/2, 1706/2),  #, 1000, 500),
-    ((2560-box_width)/2, 1706/2),  #, 1000, 500),
+    ((2560-box_width)/2 - 500, 1706/2 - 100),  #, 1000, 500),
+    ((2560-box_width)/2 - 500, 1706/2 - 100),  #, 1000, 500),
+    ((2560-box_width)/2 - 500, 1706/2 - 100),  #, 1000, 500),
+    ((2560-box_width)/2 - 500, 1706/2 - 100),  #, 1000, 500),
 ]
 
 if not (len(images) == len(rectangle_dimensions) == len(texts)):
@@ -97,7 +97,7 @@ styles = getSampleStyleSheet()
 styleN = styles["BodyText"]
 styleN.alignment = TA_LEFT
 styleN.fontName = 'Helvetica'
-styleN.fontSize = 30
+styleN.fontSize = 36
 styleN.leading = styleN.fontSize * 1.5
 styleN.leftIndent = 40
 styleN.rightIndent = 40
@@ -109,6 +109,7 @@ styleN.rightIndent = 40
 
 # page_info: [path, (x, y, width, height)]
 for page_info in zip(images, rectangle_dimensions, texts):
+    # Make the pdf size the same as the image itself
     image = Image.open(page_info[0])
     image_width, image_height = image.size
     canvas.setPageSize((image_width, image_height))
@@ -116,10 +117,12 @@ for page_info in zip(images, rectangle_dimensions, texts):
     canvas.drawImage(page_info[0], 0, 0, width=image_width, height=image_height,
                      preserveAspectRatio=True)
 
-    text = Paragraph(page_info[2], styleN)
-
-    data = [[text]]
-    table = Table(data, box_width)
+    data = [[Paragraph(page_info[2], styleN)]]
+    # Complications on the box width the adjust for different page sizes
+    #print box_width    1000
+    #print image_width  1013
+    #print 2560         2560
+    table = Table(data, box_width * image_width/2560)
 
     table.setStyle(TableStyle([('BACKGROUND', (0,0), (0,0), backgroundColor)]))
 
@@ -134,15 +137,3 @@ for page_info in zip(images, rectangle_dimensions, texts):
     canvas.showPage()
 
 canvas.save()
-
-
-
-
-
-    # canvas.setFillColor(rectColor)
-    # canvas.rect(page_info[1][0],
-                # page_info[1][1],
-                # page_info[1][2],
-                # page_info[1][3],
-                # fill=True,
-                # stroke=False)
